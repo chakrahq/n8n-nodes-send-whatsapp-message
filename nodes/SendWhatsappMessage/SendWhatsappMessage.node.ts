@@ -4,7 +4,7 @@ import { templateMessageDescription } from './resources/templateMessage';
 
 export class SendWhatsappMessage implements INodeType {
 	description: INodeTypeDescription = {
-		displayName: 'Send WhatsApp Message',
+		displayName: 'Send WhatsApp Message (By Chakra Chat)',
 		name: 'sendWhatsappMessage',
 		icon: { light: 'file:../../icons/whatsapp.svg', dark: 'file:../../icons/whatsapp.dark.svg' },
 		group: ['output'],
