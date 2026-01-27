@@ -1,0 +1,18 @@
+{
+	"node": "@chakrahq/n8n-nodes-send-whatsapp-message",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Communication", "Messaging"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://apidocs.chakrahq.com"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://apidocs.chakrahq.com"
+			}
+		]
+	}
+}
