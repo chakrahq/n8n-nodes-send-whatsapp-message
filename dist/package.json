@@ -50,5 +50,8 @@
     "peerDependencies": {
         "n8n-workflow": "*"
     },
-    "private": false
+    "private": false,
+    "publishConfig": {
+        "access": "public"
+    }
 }
