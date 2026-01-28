@@ -1,6 +1,6 @@
 {
     "name": "@chakrahq/n8n-nodes-send-whatsapp-message",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "description": "A chakrahq n8n node for sending whatsapp messages",
     "license": "MIT",
     "homepage": "",
@@ -15,15 +15,15 @@
         "type": "git",
         "url": "https://github.com/chakrahq/n8n-nodes-send-whatsapp-message.git"
     },
-   "scripts": {
-		"build": "n8n-node build",
-		"build:watch": "tsc --watch",
-		"dev": "n8n-node dev",
-		"lint": "n8n-node lint",
+    "scripts": {
+        "build": "n8n-node build",
+        "build:watch": "tsc --watch",
+        "dev": "n8n-node dev",
+        "lint": "n8n-node lint",
         "lint:fix": "n8n-node lint --fix",
-		"release": "n8n-node release",
-		"prepublishOnly": "n8n-node prerelease"
-	},
+        "release": "n8n-node release",
+        "prepublishOnly": "n8n-node prerelease"
+    },
     "files": [
         "dist"
     ],
@@ -52,6 +52,6 @@
     },
     "private": false,
     "publishConfig": {
-      "access": "public"
+        "access": "public"
     }
 }
