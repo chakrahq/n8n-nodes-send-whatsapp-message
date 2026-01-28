@@ -15,8 +15,7 @@ export const templateMessageSendDescription: INodeProperties[] = [
 		displayOptions: {
 			show: showOnlyForTemplateMessageSend,
 		},
-		description:
-			'Provide the WhatsApp phone number ID for the phone number you are going to use to send this message. Connected phone numbers and their IDs can be found in the plugin page',
+		description: 'Provide the WhatsApp phone number ID for the phone number you are going to use to send this message. Connected phone numbers and their IDs can be found in the plugin page.',
 		routing: {
 			send: {
 				type: 'body',
@@ -52,8 +51,7 @@ export const templateMessageSendDescription: INodeProperties[] = [
 		displayOptions: {
 			show: showOnlyForTemplateMessageSend,
 		},
-		description:
-			'An array of mappings of body template parameters and their values. For template {{1}}, use 1 as the schemaPropertyName',
+		description: 'An array of mappings of body template parameters and their values. For template {{1}}, use 1 as the schemaPropertyName.',
 		options: [
 			{
 				name: 'values',
@@ -92,8 +90,7 @@ export const templateMessageSendDescription: INodeProperties[] = [
 		displayOptions: {
 			show: showOnlyForTemplateMessageSend,
 		},
-		description:
-			'If your template contains an image attachment, you need to provide a public URL where the target image is hosted. You can use public media upload API to generate this URL',
+		description: 'If your template contains an image attachment, you need to provide a public URL where the target image is hosted. You can use public media upload API to generate this URL.',
 		routing: {
 			send: {
 				type: 'body',
@@ -109,8 +106,7 @@ export const templateMessageSendDescription: INodeProperties[] = [
 		displayOptions: {
 			show: showOnlyForTemplateMessageSend,
 		},
-		description:
-			'If your template contains a video attachment, you need to provide a public URL where the target video is hosted. You can use public media upload API to generate this URL',
+		description: 'If your template contains a video attachment, you need to provide a public URL where the target video is hosted. You can use public media upload API to generate this URL.',
 		routing: {
 			send: {
 				type: 'body',
@@ -126,8 +122,7 @@ export const templateMessageSendDescription: INodeProperties[] = [
 		displayOptions: {
 			show: showOnlyForTemplateMessageSend,
 		},
-		description:
-			'If your template contains a document attachment, you need to provide a public URL where the target document is hosted. You can use public media upload API to generate this URL',
+		description: 'If your template contains a document attachment, you need to provide a public URL where the target document is hosted. You can use public media upload API to generate this URL.',
 		routing: {
 			send: {
 				type: 'body',

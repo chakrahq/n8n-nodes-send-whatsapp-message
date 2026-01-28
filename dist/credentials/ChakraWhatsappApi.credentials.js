@@ -4,6 +4,7 @@ exports.ChakraWhatsappApi = void 0;
 class ChakraWhatsappApi {
     constructor() {
         this.name = 'chakraWhatsappApi';
+        this.icon = { light: 'file:../icons/whatsapp.svg', dark: 'file:../icons/whatsapp.dark.svg' };
         this.displayName = 'Chakra WhatsApp API';
         this.documentationUrl = 'https://apidocs.chakrahq.com';
         this.properties = [

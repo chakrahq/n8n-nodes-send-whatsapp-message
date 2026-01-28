@@ -63,7 +63,7 @@ export const sessionMessageDescription: INodeProperties[] = [
 			show: showOnlyForSessionMessage,
 		},
 		description:
-			'Provide the WhatsApp phone number ID for the phone number you are going to use to send this message. Connected phone numbers and their IDs can be found in the plugin page',
+			'Provide the WhatsApp phone number ID for the phone number you are going to use to send this message. Connected phone numbers and their IDs can be found in the plugin page.',
 	},
 	...sessionMessageSendDescription,
 ];

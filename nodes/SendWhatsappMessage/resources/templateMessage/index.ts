@@ -51,8 +51,7 @@ export const templateMessageDescription: INodeProperties[] = [
 		displayOptions: {
 			show: showOnlyForTemplateMessage,
 		},
-		description:
-			'Provide a fully qualified phone number including country code and without "+" and any formatting characters. Valid examples: 913399113344, 13323458424',
+		description: 'Provide a fully qualified phone number including country code and without "+" and any formatting characters. Valid examples: 913399113344, 13323458424.',
 	},
 	...templateMessageSendDescription,
 ];

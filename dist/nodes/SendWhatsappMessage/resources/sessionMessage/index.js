@@ -61,7 +61,7 @@ exports.sessionMessageDescription = [
         displayOptions: {
             show: showOnlyForSessionMessage,
         },
-        description: 'Provide the WhatsApp phone number ID for the phone number you are going to use to send this message. Connected phone numbers and their IDs can be found in the plugin page',
+        description: 'Provide the WhatsApp phone number ID for the phone number you are going to use to send this message. Connected phone numbers and their IDs can be found in the plugin page.',
     },
     ...send_1.sessionMessageSendDescription,
 ];

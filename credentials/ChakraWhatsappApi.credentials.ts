@@ -3,10 +3,13 @@ import type {
 	ICredentialTestRequest,
 	ICredentialType,
 	INodeProperties,
+	Icon,
 } from 'n8n-workflow';
 
 export class ChakraWhatsappApi implements ICredentialType {
 	name = 'chakraWhatsappApi';
+
+  icon: Icon = { light: 'file:../icons/whatsapp.svg', dark: 'file:../icons/whatsapp.dark.svg' };
 
 	displayName = 'Chakra WhatsApp API';
 
